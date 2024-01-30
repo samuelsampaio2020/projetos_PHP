@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <div class="Bloco"></div>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="editionTelaLogin.css"><!--area do CSS-->
+    <script src="main.js"></script><!--area do JAVASCRIPTs-->
+    <div>
+        <h1 style="text-align: center; font-style:italic;">Login</h1>
+    </div>
+</head>
+<body>
+    
+    <div>
+        <form action="pegarDados.php" class="Formulario" method="post" >
+            <div class="DivLabelEmail">
+                <label 
+                for="Email" 
+                id="EditLabelEmail"><strong>Informe Seu Email</strong></label>
+            </div>
+            <div class="DivInputEmail">
+                <input 
+                type="email" 
+                name="Email" 
+                id="EditInputEmail"
+                placeholder="--Informe o Email--"
+                required>
+            </div>
+
+            <div class="DivLabelSenha">
+                <label 
+                for="Email" 
+                id="EditLabelSenha"><strong>Informe Sua Senha</strong></label>
+            </div>
+            <div class="DivInputSenha1">
+                <input 
+                type="password"
+                name="password" 
+                id="editinputsenha1"
+                title="Campo Senha"
+                placeholder="--Informe a Senha--"
+                required>
+            </div>
+
+            <div class="DivButton">
+                <button 
+                type="submit"
+                value="submit"
+                id="botaoEnviar">Entrar</button>
+                <h1 id="msg1"></h1>
+
+                
+            </div>
+        </form>
+        <form action="telaCadastro.html" class="Formulario">   
+            <div class="DivButton">
+                <button 
+                    type="submit"
+                    value="submit"
+                    id="botaoEnviar">Se-Inscreva</button>
+            </div>
+        </form>
+    </div>
+        
+    <!-- <div class="DivFooter">
+            <div id="area1_footer">
+                <label for="name1">name1</label>
+            </div>
+            <div id="area2_footer">
+                <label for="name2">name2</label>
+            </div>
+            <div id="area2_footer">
+                <label for="name2">name2</label>
+            </div>
+
+    </div> -->
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="editionTelaLogin.css">
+    
+    <title>Cadastro</title>
+    <div>
+        <h1 style="text-align: center; font-style:italic;">Cadastro</h1>
+    </div>
+</head>
+<body>
+    
+    <div>
+        <form class="Formulario" action="enviarDados.php" method="post">
+            <div class="DivLabelEmail">
+                <label 
+                for="Email"
+                name="infoEmail"
+                id="EditLabelEmail"><strong>Informe Seu Email e Nome</strong></label>
+            </div>
+
+                <div class="DivInputEmail">
+                    <input type="text" autocomplete="on" name="nome" id="EditInputEmail" placeholder="--Informe Seu Nome--" required>
+                </div>
+
+            <div class="DivInputEmail">
+                <input type="email" autocomplete="email" name="Email" id="EditInputEmail" placeholder="--Informe Seu Email--" required>
+            </div>
+
+            <div class="DivLabelSenha">
+                <label for="Senha" name="infoSenha" id="EditLabelSenha"><strong>Informe Sua Senha</strong></label>
+            </div>
+          
+                <div class="DivInputSenha1">
+                    <input  name="senha" id="editinputsenha1" title="Campo Senha 1" placeholder="--Senha--" required>
+                </div>
+                <div class="DivInputSenha2">
+                    <input  name="senha" id="editinputsenha2" title="Campo Senha 2" placeholder="--Senha Novamente--" required>
+                </div>
+            
+
+            <div class="DivButton">
+                <button
+                type="submit"
+                name="submit"
+                id="botaoEnviar"
+                >Salvar</button>
+            </div>
+        </form>
+        <form action="TelaLogin.html">
+            <div class="DivButton">
+                <button 
+                type="submit"
+                name="submit"
+                id="botaoEnviar"
+                >Voltar</button>
+            </div>
+        </form>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

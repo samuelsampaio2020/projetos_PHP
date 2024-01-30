@@ -1,0 +1,145 @@
+
+html{
+    height: 100%;
+}
+
+body{
+    width: auto;height: auto;min-height: 100%;min-width: 100%;
+
+    background-color: rgb(46, 97, 146);
+    border: 5px solid white;
+
+    margin: 0 auto;
+    display: block;
+    background-image: url("https://s2-techtudo.glbimg.com/SSAPhiaAy_zLTOu3Tr3ZKu2H5vg=/0x0:1024x609/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/c/u/15eppqSmeTdHkoAKM0Uw/dall-e-2.jpg");
+    background-size: cover;
+    background-position: center;
+
+    justify-content: center;
+    .DivUsuario{
+        text-align: end;
+    }
+    #usuario{
+        color: blue;
+        background-color: brown;
+        border-radius: 10px;
+    }
+    .Formulario{
+        border-radius: 10px;
+        width: 400px;
+        margin: auto;
+    }
+    .DivLabelEmail{
+        text-align: center;
+        padding-top: 30px;
+        margin: auto;
+        font-style: italic;
+        #EditLabelEmail{
+            font-size: 15px;
+            text-align: center;
+            background-color: white;
+            color: black;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+           }
+    }
+   
+   .DivInputEmail{
+        width: auto;
+        text-align: center;
+        margin: auto;
+        border: 5px solid white;
+        background-color: white;
+        border-radius: 10px;
+        #EditInputEmail{
+            font-size: 20px;
+            width: 350px;
+    }
+   }
+   
+   .DivLabelSenha{
+        text-align: center;
+        padding-top: 30px;
+        margin: auto;
+        font-style: italic;
+        #EditLabelSenha{
+            font-size: 15px;
+            text-align: center;
+            background-color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+    }
+   }
+   .DivInputSenha1{
+        width: auto;
+        text-align: center;
+        border: 5px solid white;
+        background-color: white;
+        border-radius: 10px;
+        #editinputsenha1{
+            font-size: 20px;
+            width: 350px;
+        }
+   }
+    .DivInputSenha2{
+        width: auto;
+        text-align: center;
+        border: 5px solid white;
+        background-color: white;
+        border-radius: 10px;
+        #editinputsenha2{
+            font-size: 20px;
+            width: 350px;
+        }
+    }
+   
+   .DivButton{
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        #botaoEnviar{
+            font-size: 20px;
+            font-style: italic;
+            border-radius: 10px;
+        }
+   }
+   .DivFooter{
+    display: flex;
+    align-items: start;
+    
+    position: absolute;
+    bottom: 0%;
+
+    margin: auto;
+    max-width: 100%;max-height: 100%;
+    width: 100%;
+
+    background-color: rgb(17, 48, 38);
+    #area1_footer{
+        width: 100px;height: 100px;
+        text-align: center;
+
+        padding:5px;
+        border: 5px;
+        border: 5px solid;
+        background-color: aquamarine;
+    }
+    #area2_footer{
+        width: 100px;height: 100px;
+        text-align: center;
+        margin-left: 5px;
+
+        padding:5px;
+        border: 5px;
+        border: 5px solid;
+        background-color: aquamarine;
+    }
+    
+}
+}
+
